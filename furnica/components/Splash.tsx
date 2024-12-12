@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   welcomeText: {
-    fontSize: 24,
+    fontSize: 26,
     fontWeight: 'bold',
     color: '#000',
     textAlign: 'center',

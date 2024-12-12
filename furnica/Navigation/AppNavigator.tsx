@@ -3,7 +3,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import Splash from '../components/Splash';
 
-
 const Stack = createNativeStackNavigator();
 
 const AppNavigator = () => {
