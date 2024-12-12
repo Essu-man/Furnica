@@ -1,19 +1,17 @@
 import React from 'react';
-import { ActivityIndicator, Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 const Splash = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Welcome to FurniFind</Text>
-      <View style={styles.loaderContainer}>
-        <ActivityIndicator size="large" color="#4CAF50" />
+      <Text style={styles.welcomeText}>Furnica</Text>
+
         <Image
           source={require('../assets/images/loader.png')}
           style={styles.imageLoader}
         />
       </View>
-    </View>
-  );
+  )
 };
 
 const styles = StyleSheet.create({
@@ -26,7 +24,7 @@ const styles = StyleSheet.create({
   welcomeText: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#000',
     marginBottom: 20,
     textAlign: 'center',
   },
